@@ -1,0 +1,8 @@
+.speed-meter {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center the text inside the container */
+    margin: auto; /* Center the entire component within its parent container */
+    padding-top: 20px; /* Adjust the value to move the speedometer down */
+  }

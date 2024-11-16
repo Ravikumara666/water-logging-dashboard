@@ -1,0 +1,14 @@
+.app-header {
+    text-align: center;
+    background-color: #3AB4F2; /* Customize the background color */
+    color: #fff; /* White text for contrast */
+    padding: 20px;
+    font-size: 1.8em; /* Adjust the font size for emphasis */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: bold; /* Make the text bold */
+  }

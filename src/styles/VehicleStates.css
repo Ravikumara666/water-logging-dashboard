@@ -1,0 +1,34 @@
+.vehicle-states {
+    background-color: #F1F5F9;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .vehicle-levels {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vehicle {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status.safe {
+    background-color: #3AB4F2;
+  }
+  
+  .status.warning {
+    background-color: #FFB400;
+  }
+  
+  .status.danger {
+    background-color: #D9376E;
+  }

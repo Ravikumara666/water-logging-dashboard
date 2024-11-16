@@ -1,0 +1,46 @@
+.water-level-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .level-card {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+  .level-card h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .level-card p {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .level-card.current {
+    background-color: #3AB4F2; /* Light blue */
+  }
+  
+  .level-card.highest {
+    background-color: #FFB400; /* Amber */
+  }
+  
+  .level-card.lowest {
+    background-color: #76C7C0; /* Teal */
+  }
+  
+  .level-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }

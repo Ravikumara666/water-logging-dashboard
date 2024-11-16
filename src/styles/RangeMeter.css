@@ -1,0 +1,19 @@
+.range-meter {
+    background-color: #F1F5F9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .slider {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .range-values {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some spacing between the items */
+    font-size: 0.8em;
+    color: #666;
+  }

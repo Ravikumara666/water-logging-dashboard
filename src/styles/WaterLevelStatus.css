@@ -1,0 +1,68 @@
+/* .water-level-status container styling */
+.water-level-status {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Header styling */
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling the container for buttons */
+.status-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Styling the individual buttons */
+.status-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100px;
+  color: white; /* Makes the text on the buttons more readable */
+  background-color: grey; /* Default grey background when inactive */
+}
+
+/* Styling for the active status button */
+.status-button.active {
+  font-weight: bold;
+  transform: scale(1.05); /* Slight zoom effect on the active button */
+}
+
+/* Hover effect for the buttons */
+.status-button:hover {
+  opacity: 0.8;
+}
+
+/* Specific background colors for each status */
+.status-button.Safe {
+  background-color: skyblue;
+}
+
+.status-button.Warning {
+  background-color: yellow;
+}
+
+.status-button.Critical {
+  background-color: orange;
+}
+
+.status-button.Danger {
+  background-color: red;
+}

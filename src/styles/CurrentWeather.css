@@ -1,0 +1,20 @@
+.current-weather {
+    background-color: #3AB4F2;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .temperature {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .weather-icon {
+    font-size: 1.5em;
+  }
+  
+  .weather-label {
+    font-size: 0.9em;
+  }

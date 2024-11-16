@@ -1,0 +1,36 @@
+/* src/styles/Header.css */
+.header {
+    background-color: #1b2022; /* Customize the background color */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-item:hover {
+    background-color: #007bb5; /* Hover effect */
+  }
+  
+  .nav-item.active {
+    background-color: #005f8a; /* Active item styling */
+  }
